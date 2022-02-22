@@ -1,0 +1,261 @@
+/***************************************************************************************/
+/****** BODY ******/
+
+body
+{
+	background-image: url(../img/bg.gif);
+	background-color: #A37D51;
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+.contenu_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	height: auto;
+}
+
+/***************************************************************************************/
+/****** Haut de page ******/
+
+#img_top1
+{
+	background-image: url(../img/rallye_haut.gif);
+	background-repeat: no-repeat;
+	height: 53px;
+}
+
+.logo_right
+{
+	float: right;
+	margin-right: 5px;
+}
+
+/***************************************************************************************/
+/****** NAV MENU HAUT ******/
+
+#menu_haut
+{
+	clear: both;
+	background-image: url(../img/bg_menu_haut.gif);
+	background-repeat: repeat-x;
+	height: 29px;
+}
+
+#menu_haut a
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 29px;
+	border-right: 1px solid white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/***************************************************************************************/
+/****** Image banner ******/
+
+#banner
+{
+	background-image: url(../img/photo.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 980px;
+}
+
+
+/***************************************************************************************/
+/****** NAV MENU BAS ******/
+#menu_bas
+{
+	background-image: url(../img/bg_menu_bas.jpg);
+	background-repeat: no-repeat;
+	height: auto;
+	font-size: 16px;
+	border-bottom: 1px solid black
+}
+
+#menu_bas div
+{
+	display: inline-block;
+	width: 16.1%;
+	height: 26px;
+	text-align: center;
+	line-height: 28px;
+}
+
+#menu_bas a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.border
+{
+	border-right: 1px dotted black;
+	border-left: 1px solid rgb(0,0,0,0.0);	
+}
+
+/***************************************************************************************/
+/****** SECTIONS ******/
+
+/*** POUR LES DEUX ***/
+
+#articles
+{
+	margin-bottom: 30px;
+}
+
+h1
+{
+	border-bottom: 2px dotted black;
+	font-size: 20px;
+}
+
+h2
+{
+	font-size: 18px;
+	background-color: rgb(254, 245, 216);
+	margin-left: 3%;
+	margin-right: 3%;
+	color: rgb(180, 0, 30);
+}
+
+.titre_gauche
+{
+	text-align: left;
+	width: 98%;
+}
+.titre_droite
+{
+	text-align: right;
+	width: 95%;
+}
+
+.decal_titre
+{
+	margin-left: 10px;
+}
+
+
+#articles p
+{
+	text-align: justify;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#articles a
+{
+	margin-left: 3%;
+}
+
+.text_bloc
+{
+	font-weight: bold;
+}
+
+/*** Gauche ***/
+
+#section_gauche
+{
+	background-color: rgb(245, 235, 199);
+	background-image: url(../img/bg_gauche.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100%;
+	float: left;
+	width: 65.3%;
+}
+
+.float_paragraph
+{
+	float: right;
+	margin-right: 20px;
+	margin-left: 3%;
+}
+
+.logo_point
+{
+	float: left;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+/*** TABLEAU PALMARES ***/
+#articles table
+{
+	border-collapse: collapse;
+	width: 94%;
+	font-size: 14px;
+	margin-left: 3%;
+}
+
+#articles td
+{
+	border-bottom: 1px solid black;
+	padding: 5px;
+	padding-right: 15px;
+}
+
+#center_td td
+{
+	text-align: center;
+}
+
+#articles tr
+{
+	margin-right: 10px;
+}
+
+/*** Droite ***/
+
+#section_droite
+{
+	background-color: rgb(236, 224, 179);
+	background-image: url(../img/bg_droit.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 100%;
+	float: right;
+	width: 34.7%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.logo_puce
+{
+	float: left;
+	margin-left: 3%;
+	margin-right: 5px;
+	margin-top: 1px;
+	height: 14px;
+}
+
+#articles a
+{
+	color: rgb(180, 0, 30);
+}
+
+
+/***************************************************************************************/
+/****** FOOTER ******/
+
+.footeur
+{
+	clear: both;
+	background-image: url(../img/bg_ss_menu.gif);
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	height: 26px;
+	line-height: 26px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-size: 14px;
+}
